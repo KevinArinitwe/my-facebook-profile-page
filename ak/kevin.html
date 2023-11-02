@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kevinliiams</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="kevin.css">
+</head>
+<body class="light-mode"> <!-- Set the default theme as light mode -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">facebook lite</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Facebook">
+            </div>
+            <div class="header-icons">
+                <div class="icon icon-home"><i class="fas fa-home"></i></div>
+                <div class="icon icon-friends"><i class="fas fa-user-friends"></i></div>
+                <div class="icon icon-messenger"><i class="fas fa-comments"></i></div>
+                <div class="icon icon-notifications"><i class="fas fa-bell"></i></div>
+                <div class="icon icon-settings"><i class="fas fa-cog"></i></div>
+            </div>
+            <div class="profile-picture1">
+                <img src="c:\Users\KEVIN LIAMS\Desktop\ak\photoes\IMG_20230917_223807.jpg " alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="cover-photo">
+            <img src="c:\Users\KEVIN LIAMS\Desktop\ak\photoes\Snapchat-898289818.jpg" alt="Cover Photo">
+        </div>
+        <div class="user-info">
+            <img class="profile-picture" src="c:\Users\KEVIN LIAMS\Desktop\ak\photoes\Snapchat-170081092.jpg" alt="Profile Picture">
+            <h1 class="user-name">KEVINLIAMS</h1>
+            <p class="user-location">Masaka, Ug</p>
+            <p class="user-job">DECORATOR</p>
+
+        </div>
+
+        <div class="user-tabs">
+            <a href="#" class="tab tab-active">Posts</a>
+            <a href="#" class="tab">Friends</a>
+            <a href="#" class="tab">Photos</a>
+            <a href="#" class="tab">More</a>
+        </div>
+
+        <div class="user-content">
+            <div class="post">
+                <p><b>an open star hoping to form a galaxy</b></p>
+                <img src="c:\Users\KEVIN LIAMS\Desktop\ak\photoes\Snapchat-1274346192.jpg" alt="Post Image">
+            </div>
+            <div class="post">
+                <p><b>official always</b>🌅</p>
+                <img src="c:\Users\KEVIN LIAMS\Desktop\ak\photoes\IMG_20230917_223807.jpg" alt="Post Image">
+            </div>
+        </div>
+    </main>
+
+    <!-- Theme change button -->
+    <button id="theme-toggle">Dark-mode</button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class ="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-language">
+                <select>
+                    <option value="en">English (US)</option>
+                    <option value="es">french</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to handle theme toggling
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
